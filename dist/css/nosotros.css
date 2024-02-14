@@ -1,0 +1,130 @@
+.span-title-nosotros{
+    background-image: linear-gradient(to right,#e73b28,#F3265F, #7e678e, #2a2a2a);
+    background-size:200% auto;
+    animation: gradientAnimation 5s linear infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.presentacion-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.presentacion-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner{
+    object-fit: cover;
+    width: 100%;
+}
+
+.mision h2{
+    color: white;
+    font-size: 2em;
+
+}
+
+.vision h2{
+    color: black;
+    font-size: 2em;
+}
+
+.mision-vision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    text-align: start;
+}
+
+.grid-m-v{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    place-items: center;
+    margin: 1em;
+}
+.grid-m-v h2{
+    font-size: 2em;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+.grid-m-v p{
+    font-size: 1.2em;
+}
+
+  .infor-presentacion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    place-content: center;
+    place-items: center;
+  }
+
+  .infor-presentacion h2{
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .infor-presentacion p{
+    font-size: 1.3em;
+  }
+
+  .vision{
+    width: 100%;
+    border-radius: 20px;
+    list-style: none;
+    padding: 1em;
+    background-image: url('../images/gradient.webp');
+    background-size: cover;
+    background-position: center;
+    font-weight: 500;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width:1000px) {
+    .infor-presentacion h2{
+        font-size: 1.5em;
+    }
+    .infor-presentacion p{
+        font-size: 1em;
+    }
+    .grid-m-v h2{
+        font-size: 1.5em;
+    }
+    .grid-m-v p{
+        font-size: 1em;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .infor-presentacion{
+        grid-template-columns: 1fr;
+    }
+    .grid-m-v{
+        grid-template-columns: 1fr;
+    }
+  }

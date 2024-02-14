@@ -1,0 +1,51 @@
+.banner{
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 13px 48px 0 rgba(0,0,0,.5);
+    margin-bottom: 2em;
+
+}
+
+.grid-features{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 1em;
+    place-content: center;
+    place-items: center;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+}
+
+
+.grid-features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 1em;
+    width: 40%;
+}
+
+.grid-features div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: .4em;
+}
+
+.grid-features div span{
+    width: 8em;
+    font-weight: 4em;
+}
