@@ -8,7 +8,6 @@
     overflow: hidden;
     box-shadow: 0 13px 48px 0 rgba(0,0,0,.5);
     margin-bottom: 2em;
-
 }
 
 .grid-features{
@@ -48,4 +47,10 @@
 .grid-features div span{
     width: 8em;
     font-weight: 4em;
+}
+
+@media screen and (max-width: 1000px) {
+    .banner h1{
+        font-size: 2em;
+    }
 }
