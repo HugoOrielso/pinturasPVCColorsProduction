@@ -15,6 +15,7 @@
     width: 100%;
 }
 
+
 .title-nosotros{
     display: flex;
     align-items: center;
@@ -127,4 +128,8 @@
     .grid-m-v{
         grid-template-columns: 1fr;
     }
+    .infor-presentacion div{
+        margin: 1em;
+    }
+    
   }

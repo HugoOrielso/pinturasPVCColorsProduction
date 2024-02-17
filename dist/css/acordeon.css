@@ -1,0 +1,85 @@
+.btn-uno {
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+  }
+  
+  .btn-uno:hover {
+    background-color: #f5f5f5; /* Cambia este color según tus preferencias */
+  }
+
+  .span-style {
+    writing-mode: vertical-lr;
+    display: none; /* Inicialmente oculto en tamaños de pantalla pequeños */
+    font-size: 1.25rem; /* Ajusta el tamaño de la fuente según tus necesidades */
+    font-weight: lighter;
+    transform: rotate(180deg);
+  }
+  
+  .lg-block {
+    display: block; /* Visible en tamaños de pantalla grandes */
+  }
+  
+
+  .span-dos{
+    width: 1rem; /* Ajusta el ancho según tus necesidades */
+    height: 1rem; /* Ajusta la altura según tus necesidades */
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc; /* Añadido para pantallas grandes */
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    z-index: 20;
+  }
+  
+
+  .span-dos:hover {
+    background-color: #f5f5f5; /* Cambia este color según tus preferencias */
+  }
+  
+  .span-dos {
+    border-bottom: 0; /* Elimina el borde inferior para pantallas grandes */
+    top: 50%; /* Posiciona el elemento en la mitad superior para pantallas grandes */
+    right: 0; /* Alinea el elemento a la derecha para pantallas grandes */
+    transform: translate(50%, -50%); /* Ajusta la posición para pantallas grandes */
+  }
+
+  .panel-style {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #000000;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .panel-style img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .description-style {
+    padding: 0.5rem; /* Ajusta el relleno según tus necesidades */
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con transparencia */
+    backdrop-filter: blur(4px); /* Agrega desenfoque al fondo */
+    color: #ffffff; /* Color del texto */
+  }
+  
+  
+  

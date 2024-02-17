@@ -69,8 +69,18 @@
                 "colores": ["green", "blue", "red", "black", "orange"],
                 "recomendaciones": "Recomendado para uso Interior. Su mayor utilidad se encuentra en la decoración de muebles, puertas, paredes, divisiones arquitectónicas y superficies metálicas en general.",
                 "presentacion":["Galón", "Cuarto de galón"],
-                "url":"esmalteSinteticoEsmalcolor"
-
+                "url":"esmalteSinteticoEsmalcolor",
+                "ficha": "https://pdf.ac/1eBaAv"
+            },
+            {
+                "nombreProducto":"Pasta profesional",
+                "descripcionProducto": "Pasta pvc color’s, listo para aplicar y de buena manejabilidad, se puede usar sobre muros, placas, drywall, sirve para interiores y exteriores. Una vez aplicado tiene una excelente durabilidad y un buen acabado.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/pasta.jpeg",
+                "colores": ["green", "blue", "red", "black", "orange"],
+                "recomendaciones": "Como revestimiento para acabados sobre pañetes, frisos, repellos o revoques, sobre superficies lisas de concreto y láminas de fibrocemento y panel yeso. Especial para hacer resanes en pequeños espesores sobre",
+                "presentacion":["Galón", "Cuarto de galón"],
+                "url":"pastaProfesional",
+                "ficha": "https://pdf.ac/1B7ZLz"
             },
             {
                 "nombreProducto":"Base anticorrosivo alquídico",
@@ -79,7 +89,8 @@
                 "colores": ["green", "blue", "red", "black", "orange"],
                 "recomendaciones": "Se emplea principalmente en estructuras de hierro y acero, marcos y puertas de hierro, tanques, tuberías y superficies metálicas en general. No se recomienda para inmersión, ni ambientes marinos y tropicales. Tampoco debe usarse directamente sin aplicar acabado. No usar sobre superficies de metal galvanizado. ",
                 "presentacion":["Cuñete 5 galones",  "Galón", "Cuarto de galón"],
-                "url": "baseAnticorrosivoAlquidico"
+                "url": "baseAnticorrosivoAlquidico",
+                "ficha": "https://pdf.ac/GNWsK"
             },
             {
                 "nombreProducto":"Vinilo tipo 1",
@@ -88,7 +99,8 @@
                 "colores": ["green", "blue", "red", "black", "orange", "yellow"],
                 "recomendaciones": "Recomendada para superficies interiores y exteriores donde se requiere un acabado de alta durabilidad. Igualmente puede ser utilizada en superficies de madera, cemento y asbesto-cemento.",
                 "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón", "Cuarto de galón"],
-                "url": "vinilo1"
+                "url": "vinilo1",
+                "ficha": "https://pdf.ac/1s7fW9"
             },
             {
                 "nombreProducto":"Vinilo tipo 2",
@@ -97,7 +109,8 @@
                 "colores": ["green", "blue", "red", "black", "orange"],
                 "recomendaciones": "Recomendada para uso interior donde se requiere un acabado de muy buena durabilidad, en decoración de muros y madera, cemento y asbesto-cemento.",
                 "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón", "Cuarto de galón"],
-                "url": "vinilo2"
+                "url": "vinilo2",
+                "ficha": "https://pdf.ac/37KBbB"
             },
             {
                 "nombreProducto":"Vinilo tipo 3",
@@ -106,8 +119,8 @@
                 "colores": ["green", "blue", "red", "black", "orange"],
                 "recomendaciones": "Recomendada para uso de techos, viviendas, oficinas, edificios comerciales, escuelas, construcción general, exterior superficies horizontales.",
                 "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón"],
-                "ficha": "/images/secciones/arquitectonica/ficha-viniloTres.pdf",
-                "url": "vinilo3"
+                "ficha": "https://pdf.ac/2IY5WV",
+                "url": "vinilo3"    
             },
             {
                 "nombreProducto":"Waterproofing",
@@ -116,7 +129,7 @@
                 "colores": ["white"],
                 "recomendaciones": "Recomendada para uso interior donde se requiere un acabado de muy buen durabilidad en decoración de muros, madera, cemento y asbesto-cemento.",
                 "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón"],
-                "ficha": "/images/secciones/arquitectonica/ficha-viniloTres.pdf",
+                "ficha": "https://pdf.ac/YPmBg",
                 "url": "waterproofing"
             }
         ]

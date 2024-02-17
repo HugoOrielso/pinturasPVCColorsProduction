@@ -1,0 +1,8 @@
+.info-learn{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    place-content: center;
+    text-align: start;
+    place-items: center;
+    margin: 1em;
+}

@@ -1,0 +1,55 @@
+.grid-maping{
+    display: grid;
+}
+
+.list{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mapas{
+    min-height: 500px;
+}
+
+.phones{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    width: 100%;
+    max-height: 600px;
+}
+
+.palabraClave{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background: royalblue;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+}
+
+.container-talonario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    h2, h3{
+        font-size: 1em;
+    }
+    .div-animated{
+        height: 300px;
+    }
+}
