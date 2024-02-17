@@ -505,19 +505,6 @@
         color: white;
 
     }
-    .info-producto > p {
-        font-size: .8em;
-        margin: .5em;
-        text-wrap: pretty;
-        font-weight: 600;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;
-        color: white;
-    }
-
     .presentacion-producto h1{
         font-size: 2em;
     }
@@ -539,13 +526,9 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        -webkit-line-clamp: 4;
+        -webkit-line-clamp: 6;
         -webkit-box-orient: vertical;
-        color: white;
     }
 
-    .info-producto p{
-        color: white;
-    }
    }
 
