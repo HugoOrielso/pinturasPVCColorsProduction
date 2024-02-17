@@ -66,7 +66,7 @@
                 "nombreProducto":"Esmalte sintético esmalcolor",
                 "descripcionProducto": "Producto de secamiento al aire elaborado con resinas alquídicas y pigmentos de color seleccionados, de acabado brillante y excelente calidad, flexibilidad, retención de color y durabilidad.",
                 "imagenProducto": "/images/secciones/arquitectonica/productos/emalcolor.jpeg",
-                "colores": ["green", "blue", "red", "black", "orange"],
+                "colores": ["green", "blue", "red", "black", "#F28500", "#600705" , "#07194D", "gray", "yellow", "rgb(255, 247, 133)", "rgb(245, 215, 96)", "royalblue", "rgb(137, 87, 87)", "#FBFED6", "#86D057", "#B3D9B5", "#1B5422", "#645452", "#1E0002", "#81808C"],
                 "recomendaciones": "Recomendado para uso Interior. Su mayor utilidad se encuentra en la decoración de muebles, puertas, paredes, divisiones arquitectónicas y superficies metálicas en general.",
                 "presentacion":["Galón", "Cuarto de galón"],
                 "url":"esmalteSinteticoEsmalcolor",

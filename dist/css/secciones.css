@@ -54,6 +54,7 @@
 .info-producto > p {
     font-size: 1em;
     margin: .5em;
+    text-wrap: pretty;
     font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -374,6 +375,24 @@
         .colores{
             grid-template-columns: 1fr;
         }
+        
+        .info-producto > h4 {
+            font-size: 1em;
+        }
+
+        .info-producto > p {
+            font-size: .8em;
+            margin: .5em;
+            text-wrap: pretty;
+            font-weight: 600;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            color: rgb(137, 87, 87);
+        }
+
 
     }
 
@@ -413,6 +432,7 @@
             display: block;
             height: 100%;
             width: 100%;
+            font-size: 1.5em;
         }
     }
 
@@ -496,4 +516,8 @@
     .container-banner-imgs h1{
         font-size: 2em;        
     }
+    .info-producto p{
+        font-size: .8em;
+    }
    }
+
