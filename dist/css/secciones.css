@@ -390,7 +390,7 @@
             display: -webkit-box;
             -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
-            color: rgb(137, 87, 87);
+            color: white;
         }
 
 
@@ -502,7 +502,22 @@
     }
     .info-producto-detail p{
         font-size: .7em;
+        color: white;
+
     }
+    .info-producto > p {
+        font-size: .8em;
+        margin: .5em;
+        text-wrap: pretty;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        color: white;
+    }
+
     .presentacion-producto h1{
         font-size: 2em;
     }
@@ -516,8 +531,21 @@
     .container-banner-imgs h1{
         font-size: 2em;        
     }
-    .info-producto p{
+    .info-producto > p {
         font-size: .8em;
+        margin: .5em;
+        text-wrap: pretty;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        color: white;
+    }
+
+    .info-producto p{
+        color: white;
     }
    }
 
