@@ -31,7 +31,10 @@
 .carousel .list .item{
     position: absolute;
     inset: 0;
+
 }
+
+
 
 .carousel .list .item img{
     width: 100%;

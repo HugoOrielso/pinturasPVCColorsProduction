@@ -5,6 +5,36 @@
     text-align: start;
     place-items: center;
     margin: 1em;
+    
+}
+
+.shadows{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.shadow-right{
+    position: absolute;
+    background-color: rgb(23, 188, 238);
+    border-radius: 50%;
+    filter: blur(96px);
+    z-index: -2;
+    width: 250px;
+    height: 250px;
+    opacity: 0.8;
+    right: 0px;
+}
+
+.shadow-left{
+    position: absolute;
+    background-color: rgb(34, 200, 255);
+    border-radius: 50%;
+    filter: blur(96px);
+    z-index: -2;
+    width: 250px;
+    height: 250px;
+    opacity: 0.8;
+    right: 90%;
 }
 
 @media screen and (max-width:700px) {

@@ -66,6 +66,10 @@
     place-items: center;
     margin: 1em;
 }
+
+.grid-m-v.mobile{
+    display: none;
+}
 .grid-m-v h2{
     font-size: 2em;
     color: rebeccapurple;
@@ -118,6 +122,15 @@
     }
     .grid-m-v p{
         font-size: 1em;
+    }
+    .grid-m-v.mobile{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-content: center;
+        place-items: center;
+    }
+    .grid-m-v.mision{
+        display: none;
     }
   }
 
