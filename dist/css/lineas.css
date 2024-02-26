@@ -1,14 +1,13 @@
 .lineas{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-auto-rows: minmax(380px,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(300px,1fr);
     gap: 20px;
     padding: 3em 1em 1em 1.5em;
     place-items: center;
 }
 
 .box{
-    border-radius:10px;
     background: white;
     width: 100%;
     height: 100%;
@@ -16,19 +15,14 @@
     position: relative;
 }   
 
-.box3{
-    grid-column: span 2;
-    grid-row: span 1;
-}
+
 .img-linea{
-    border-radius:10px;
     width: 100%;
-    height: 30em;
+    height: 18em;
     object-fit: cover;
 }
 
 .linea{ 
-    font-size: 1.5em;
     width: 100%;
     height: 100%;
     z-index: 20;
@@ -37,8 +31,9 @@
     padding: 0 1em;
     margin: 0;
     position: absolute;
-    color: white;
-    background: #0f0e0e;
+    color: black;
+    font-size: .5em;
+    background: white;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -61,7 +56,12 @@
 
 .box:hover .linea{
     top: 0%;
+    color: white;
     background-color: #0f0e0e7e;
+}
+
+.box:hover .linea > p{
+    font-size: .9em;
 }
 
 .variedad{

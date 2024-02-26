@@ -1,0 +1,29 @@
+.main-slider{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-height: 400px;
+}
+
+.swiper{
+    max-width: 100%;
+}
+
+
+.main-slider img{
+    width: 100%;
+    object-fit: cover;
+    border-image: fill 0 linear-gradient(#0001,#000);
+    
+}
+
+.main-slider-content{
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+
+.main-slider-content h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
