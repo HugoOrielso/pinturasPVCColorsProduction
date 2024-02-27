@@ -3,6 +3,7 @@
     height: 100%;
     position: relative;
     max-height: 500px;
+    min-height: 500px;
 }
 
 .swiper{
