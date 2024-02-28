@@ -212,7 +212,6 @@
     .absolute-submenu-mobile{
         opacity: 0;
         padding-left: 1em;
-        background-color: white;
         transition: all .5s ease;
     }
     .absolute-submenu-mobile.active{

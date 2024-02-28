@@ -6,20 +6,15 @@
         "imagen": "/images/secciones/industrial/industrialBanner.jpg",
         "productos": [
             {
-                "nombreProducto":"producto 1",
-                "descripcionProducto": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
-                "imagenProducto": "/images/products/producto.png",
-                "colores": ["green", "blue", "red"],
-                "recomendaciones": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
-                "url": "producto1"
-            },
-            {
-                "nombreProducto":"producto 2",
-                "descripcionProducto": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
-                "imagenProducto": "/images/products/producto.png",
-                "colores": ["green", "blue", "red"],
-                "recomendaciones": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
-                "url": "producto2"
+                "nombreProducto":"Cromato de zinc",
+                "descripcionProducto": "Imprimante anticorrosivo alquídico modificado, con muy buena resistencia a la corrosión ya que contiene cromato de zinc como inhibidor de corrosión. Producto de excelente secamiento, muy buena adherencia y flexibilidad",
+                "imagenProducto": "/images/secciones/industrial/productos/cromatoDeZinc.webp",
+                "colores": ["#4D5F23", "yellow"],
+                "recomendaciones": "Se utiliza para proteger, aplicando como primera capa para el recubrimiento de superficies metálicas expuestas a la intemperie y a condiciones atmosféricas moderadas. Se emplea en la protección de ventanas, puertas, barandas y cualquier superficie metálica que no esté sometida a contaminación industrial alta. No es recomendable aplicar en ambientes muy agresivos.",
+                "url": "cromatoDeZinc",
+                "presentacion": ["Galón", "Cuarto de galón"],
+                "ficha": "https://pdf.ac/3kNjB9",
+                "caracterizacion": "cromatoDeZinc"
             }
         ]
     },
@@ -29,20 +24,20 @@
         "imagen": "/images/secciones/madera/madera.webp",
         "productos": [
             {
-                "nombreProducto":"Colbón madera seca",
+                "nombreProducto":"Colbón C-30 madera seca",
                 "url":"colbonMaderaSeca",
-                "descripcionProducto": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
-                "imagenProducto": "/images/secciones/maderas/colbonMaderaSeca.webp",
+                "descripcionProducto": "Adhesivo acuoso basado en resina sintética de PVA, para uniones fuertes, desarrollado para la industria de la carpintería.",
+                "imagenProducto": "/images/secciones/maderas/productos/colbonMaderaSeca.webp",
                 "colores": ["white"],
-                "recomendaciones": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
-                "presentacion":["Galón", "Cuarto de galón"]
-
+                "recomendaciones": "Recomendados para el ensamble de madera, pegue de listonees y espigos entre otros.",
+                "presentacion":["Tambor de 200kg", "Cuñete de 20kg", "Galón de 4kg", "Cuarto de 1kg"],
+                "ficha": "https://pdf.ac/3ypWCc"
             },
             {
                 "nombreProducto":"Colbón madera húmeda",
                 "url":"colbonMaderaHumeda",
                 "descripcionProducto": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
-                "imagenProducto": "/images/secciones/maderas/colbonMaderaHumeda.webp",
+                "imagenProducto": "/images/secciones/maderas/productos/colbonMaderaHumeda.webp",
                 "colores": ["pink"],
                 "recomendaciones": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
                 "presentacion":["Galón", "Cuarto de galón"]
@@ -51,7 +46,7 @@
                 "nombreProducto":"Sellador catalizado",
                 "url":"selladorCatalizado",
                 "descripcionProducto": "El sellador LM-051 (Sellador Catalizado Industrial Pvc Colors), es un producto de dos componentes: SELLADOR CATALIZADO PVC  COLOR´S (Componente A) y CATALIZADOR P V C,(Componente B), que deben ser mezclados previamente a la aplicación; los cuales garantizan un sellamiento rápido y un excelente acondicionamiento de la madera.",
-                "imagenProducto": "/images/secciones/maderas/lacaCatalizada.webp",
+                "imagenProducto": "/images/secciones/maderas/productos/lacaCatalizada.webp",
                 "recomendaciones": "Solo para uso interior en cualquier clase de muebles, puertas y maderas en general, como preparador de superficie antes de aplicar el color final.",
                 "presentacion":["Galón", "Cuarto de galón", "Cuñete"]
             }

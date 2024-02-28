@@ -7,6 +7,8 @@
     background: #eae9e9d8;
 }
 
+
+
 .form-contact{
     display: flex;
     align-items: center;
@@ -155,7 +157,6 @@
     grid-template-columns: 1fr 1fr;
     place-content: center;
     place-items: center;
-    gap: 1em;
     margin: 0 1em;
   }
 
@@ -174,16 +175,17 @@
     display: flex;
     align-items: start;
     flex-flow: column nowrap;
-    margin: 15px;
+    padding-right: 15px;
     color: white;
+    gap: 2em;
   }
 
   .information div{
-    display: grid;
-    grid-template-columns: 90% 10%;
-    place-items: start;
-    place-content: center ;
+    display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
   }
 
   .information div article{
@@ -230,7 +232,10 @@
     .banner-dudas h1{
       font-size: 5em;
     }
-    
+    .information{
+      gap: 1em;
+    }
+
     .banner-dudas h2{
       font-size: 3em;
     }
@@ -257,7 +262,9 @@
     .banner-dudas h1{
       font-size: 3em;
     }
-    
+    .information{
+      padding: 1em;
+    }
     .banner-dudas h2{
       font-size: 1.5em;
     }
@@ -265,7 +272,9 @@
 
   @media screen and (max-width:500px) {
     .information div{
-      grid-template-columns: 1fr;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
       padding: 10px;
     }
     .banner-dudas h1{
