@@ -225,8 +225,9 @@
         display: block;
         background-color: #f0eeff;
         opacity: 1;
+        place-items: center;
         border-radius: 12px;
-        height: 150px;
+        height: 180px;
         font-size: 1.5em;
     }
     .bg-absolute-mobile li{

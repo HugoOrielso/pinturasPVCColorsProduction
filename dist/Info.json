@@ -13,8 +13,27 @@
                 "recomendaciones": "Se utiliza para proteger, aplicando como primera capa para el recubrimiento de superficies metálicas expuestas a la intemperie y a condiciones atmosféricas moderadas. Se emplea en la protección de ventanas, puertas, barandas y cualquier superficie metálica que no esté sometida a contaminación industrial alta. No es recomendable aplicar en ambientes muy agresivos.",
                 "url": "cromatoDeZinc",
                 "presentacion": ["Galón", "Cuarto de galón"],
-                "ficha": "https://pdf.ac/3kNjB9",
-                "caracterizacion": "cromatoDeZinc"
+                "ficha": "https://pdf.ac/3kNjB9"
+            },
+            {
+                "nombreProducto":"Esmalfast",
+                "descripcionProducto": "Producto elaborado con resinas alquídicas modificadas de excelente calidad y pigmentos de color seleccionados. Es de secamiento extra rápido, excelente brillo y durabilidad.",
+                "imagenProducto": "/images/secciones/industrial/productos/esmalfast.webp",
+                "colores": ["white", "red", "yellow","black", "#107860", "#0874BA"],
+                "recomendaciones": "Se utiliza para la protección de objetos metálicos, ferrosos y no ferrosos como puertas, ventanas, rejas, maquinaria industrial, estructuras y manufacturas metálicas en general, en ambientes interiores y exteriores de agresividad intermedia. NO ES COMPATIBLE CON ESMALTES ALQUÍDICOS O SINTÉTICOS.",
+                "url": "esmalfast",
+                "presentacion": ["Galón"],
+                "ficha": "https://pdf.ac/3D1Two"
+            },
+            {
+                "nombreProducto":"Tráfico pesado",
+                "descripcionProducto": "Elaborada con vehículo acrílico, pigmentos de alta resistencia y aditivos cuidadosamente seleccionados, es de rápido secamiento al aire, muy buena adherencia, resistencia a la abrasión, a la humedad y a la intemperie. No contiene material reflectivo.",
+                "imagenProducto": "/images/secciones/industrial/productos/traficoPesado.webp",
+                "colores": ["white", "red", "yellow","black", "blue"],
+                "recomendaciones": "Está diseñada para trazar líneas de tráfico sobre pavimento asfáltico, concreto o ladrillo en calles, canchas deportivas, pisos en almacenes, bodegas, aparcaderos, entre otros.",
+                "url": "traficoPesado",
+                "presentacion": ["Galón", "Cuñete de 5 galones"],
+                "ficha": "https://pdf.ac/2spSuU"
             }
         ]
     },
@@ -36,10 +55,10 @@
             {
                 "nombreProducto":"Colbón madera húmeda",
                 "url":"colbonMaderaHumeda",
-                "descripcionProducto": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
+                "descripcionProducto": "COLBON C-40 PVC COLORS es un pegante ideal para trabajar en maderas humedas, es un adhesivo rosado base agua para maderas con un contenido de humedad de hasta el 18%",
                 "imagenProducto": "/images/secciones/maderas/productos/colbonMaderaHumeda.webp",
                 "colores": ["pink"],
-                "recomendaciones": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, odit? Perferendis dolorem repudiandae laborum esse sint, nobis nemo distinctio saepe accusantium quidem? Recusandae numquam voluptates provident sint vitae. Sit, vel!",
+                "recomendaciones": "Ensamble de muebles de alta exigencia, para trabajos de maderas con contenido de humedad del 18% aprox.",
                 "presentacion":["Galón", "Cuarto de galón"]
             },
             {
@@ -48,7 +67,29 @@
                 "descripcionProducto": "El sellador LM-051 (Sellador Catalizado Industrial Pvc Colors), es un producto de dos componentes: SELLADOR CATALIZADO PVC  COLOR´S (Componente A) y CATALIZADOR P V C,(Componente B), que deben ser mezclados previamente a la aplicación; los cuales garantizan un sellamiento rápido y un excelente acondicionamiento de la madera.",
                 "imagenProducto": "/images/secciones/maderas/productos/lacaCatalizada.webp",
                 "recomendaciones": "Solo para uso interior en cualquier clase de muebles, puertas y maderas en general, como preparador de superficie antes de aplicar el color final.",
-                "presentacion":["Galón", "Cuarto de galón", "Cuñete"]
+                "presentacion":["Galón", "Cuarto de galón", "Cuñete"],
+                "ficha": "https://pdf.ac/39EKcl"
+            },
+            {
+                "nombreProducto":"Laca catalizada brillante",
+                "url":"lacaCatalizada",
+                "descripcionProducto": "La laca catalizada brillante es un producto elaborado con materias primas de óptima calidad, que da a la superficie tratada un acabado con buenas propiedades finales de brillo, dureza y garantizan un sellamiento rápido y un excelente acondicionamiento de la madera. Es un producto de fácil aplicación, tiene buena adherencia y excelente resistencia a la humedad y a diversos agentes de manchado.",
+                "imagenProducto": "/images/secciones/maderas/productos/lacaBrilante.webp",
+                "recomendaciones": "Producto de acabado solo para uso interior en cualquier clase de muebles, puertas, y maderas en general.",
+                "colores": ["#BA7C58", "white", "#98080E", "rgb(159,67,38)"],
+                "presentacion":["Galón", "Cuarto de galón", "Cuñete"],
+                "ficha": "https://pdf.ac/39EKcl"
+            },
+            {
+                "nombreProducto":"Laca catalizada mate y semimate",
+                "url":"lacaCatalizadaMate",
+                "descripcionProducto": "La laca catalizada mate y/o semimate es un producto elaborado con materias primas de óptima calidad, que da a la superficie tratada un acabado con buenas propiedades finales de brillo, dureza y garantizan un sellamiento rápido y un excelente acondicionamiento de la madera. Es un producto de fácil aplicación, tiene buena adherencia y excelente resistencia a la humedad y a diversos agentes de manchado.",
+                "imagenProducto": "/images/secciones/maderas/productos/lacaBrilante.webp",
+                "recomendaciones": "Producto de acabado solo para uso interior en cualquier clase de muebles puertas y maderas en general.",
+                "colores": ["#131311", "#2E2E2E", "#505050"],
+                "presentacion":["Galón", "Cuarto de galón", "Cuñete de 5 galones"],
+                "ficha": "https://pdf.ac/39EKcl"
+
             }
         ]
     },
@@ -78,7 +119,7 @@
                 "ficha": "https://pdf.ac/1B7ZLz"
             },
             {
-                "nombreProducto":"Base anticorrosivo alquídico",
+                "nombreProducto":"Base anticorrosivo",
                 "descripcionProducto": "Producto elaborado con resinas alquídicas de excelente calidad y pigmentos anticorrosivos seleccionados. Son de muy buen lijado y excelentes propiedades físicas. Formulados especialmente para la protección de superficies metálicas en ambientes interiores y exteriores, en diferentes climas y expuestos a la intemperie, en atmósferas normales libres de contaminación industrial.",
                 "imagenProducto": "/images/secciones/arquitectonica/productos/anticorrosivo.webp",
                 "colores": ["green", "blue", "#691E18", "black", "orange", "#C26E37", "red", "white"],
@@ -127,6 +168,13 @@
                 "ficha": "https://pdf.ac/YPmBg",
                 "url": "waterproofing"
             }
+        ]
+    },
+    "otros": {
+        "categoria": "otros",
+        "descripcion": "Otros productos",
+        "imagen": "/images/secciones/otros/bannerOtrasLineas.webp",
+        "productos": [  
         ]
     }
 }

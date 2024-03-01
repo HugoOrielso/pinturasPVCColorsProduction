@@ -123,6 +123,25 @@
     height: 18px;
     animation: pulse 1s linear infinite;
   }
+  .img-seccion-dudas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .span-title{
+    background-image: linear-gradient(to right,#7be728,#f3265f,#7f40ac,#7be728);
+    background-size: 200% auto;
+    animation: gradientAnimation 5s linear infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .banner-dudas img{
+    width: 100%;
+  }
 
   .form-contact button {
     border: none;
@@ -285,3 +304,9 @@
       font-size: 1em;
     }
   }  
+
+  @media screen and (max-width:400px) {
+    .banner-dudas{
+      grid-template-columns: 1fr;
+    }
+  }
