@@ -310,3 +310,20 @@
       grid-template-columns: 1fr;
     }
   }
+
+  @media screen and (max-width:350px) {
+    .img-contacto{
+      max-width: 250px;
+      max-height: 250px;
+      width: 100%;
+    }
+    .grid-contact img {
+      max-width: 300px; 
+      max-height: 300px;
+      width: 100%;
+    }
+    .grid-contact > div {
+      align-items: center;
+      justify-content: center;
+    }
+  }

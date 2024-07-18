@@ -5,6 +5,7 @@
     gap: 20px;
     padding: 1em;
     place-items: center;
+    max-width: 1450px;
     place-content: center;
 }
 
