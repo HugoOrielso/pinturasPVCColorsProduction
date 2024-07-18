@@ -136,7 +136,6 @@
         z-index: 999999;
         color: white;
         top: 15%;
-        left: 5%;
         text-align: start;
     }
     .content-mujer{
@@ -161,8 +160,6 @@
     }
     .content-hombre{
         top: 1%;
-        left: 5%;
-        width: 40%;
         font-size: .8em;
         text-align: start;
     }
@@ -217,8 +214,6 @@
     }
     .content-hombre{
         top: 1%;
-        left: 5%;
-        width: 40%;
         font-size: .7em;
         text-align: start;
     }
@@ -242,8 +237,6 @@
     }
     .content-hombre{
         top: 1%;
-        left: 5%;
-        width: 45%;
         font-size: .6em;
         text-align: start;
     }
