@@ -1,0 +1,44 @@
+summary{
+    color: blueviolet;
+    font-size: 1.5em;
+}
+.summary-acordeon p{
+    font-size: .8em;
+}
+.li{
+    font-size: .7em;
+}
+h4{
+    font-size: .9em;
+}
+h2{
+    font-size: .9em;
+}
+.summary-acordeon{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    width: 100%;
+    justify-content: start;
+    padding-left: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .summary-acordeon{
+        padding-left: .5em;
+    }
+    .summary-acordeon p{
+        font-size: .8em;
+    }
+    summary{
+        font-size: 1em;
+    }
+
+    .li{
+        font-size: .7em;
+    }
+    h4{
+        font-size: .9em;
+    }
+}

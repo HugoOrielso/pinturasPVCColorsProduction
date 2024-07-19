@@ -1,0 +1,40 @@
+
+{
+    "productos": [
+        {
+            "nombreProducto":"Esmalte sintético esmalcolor",
+            "imagenProducto": "/images/secciones/arquitectonica/productos/emalcolor.webp",
+            "dimensionPorLitro": 5
+        },
+        {
+            "nombreProducto":"Pasta profesional",
+            "imagenProducto": "/images/secciones/arquitectonica/productos/pasta.webp",
+            "dimensionPorLitro": 6
+        },
+        {
+            "nombreProducto":"Base anticorrosivo alquídico",
+            "imagenProducto": "/images/secciones/arquitectonica/productos/anticorrosivo.webp",
+            "dimensionPorLitro": 8
+        },
+        {
+            "nombreProducto":"Vinilo tipo 1",
+            "imagenProducto": "/images/secciones/arquitectonica/productos/viniloTipoUno.webp",
+            "dimensionPorLitro": 10
+        },
+        {
+            "nombreProducto":"Vinilo tipo 2",
+            "imagenProducto": "/images/secciones/arquitectonica/productos/viniloTipoDos.webp",
+            "dimensionPorLitro": 4
+        },
+        {
+            "nombreProducto":"Vinilo tipo 3",
+            "imagenProducto": "/images/secciones/arquitectonica/productos/viniloTipoTres.webp",
+            "dimensionPorLitro": 3
+        },
+        {
+            "nombreProducto":"Waterproofing",
+            "imagenProducto": "/images/secciones/arquitectonica/productos/waterproofing.webp",
+            "dimensionPorLitro": 2
+        }
+    ]
+}

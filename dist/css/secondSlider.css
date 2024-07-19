@@ -1,0 +1,161 @@
+.content-slide{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    place-items: center;
+}
+.content-slide img{
+    width: 250px;
+    height: 350px;
+}
+
+.container-slider-recomendaciones{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center   ;
+    gap: 10px;
+    width: 100%;    
+    max-width: 1450px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.span-title-slider{
+    background-image: linear-gradient(to right,#7BE728,#F3265F, #7F40AC, #7BE728);
+    background-size:200% auto;
+    animation: gradientAnimation 5s linear infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* .swiper{
+    max-width: 80%;
+} */
+
+.infor-slide{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: start;
+    gap: 8px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content-slide-p{
+    text-wrap: pretty;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.infor-slide p{
+    margin: .4em;
+}
+
+.button-mas-slide {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    width: 13em;
+    background-color: rgb(0 107 179);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-mas-slide:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .button-mas-slide:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .button-mas-slide:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button-mas-slide::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .span-title-slider{
+        font-size: 2em;
+    }
+    .infor-slide h1{
+        font-size: 2em;
+    }
+
+    .swiper{
+        max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+
+    .infor-slide h1{
+        font-size: 1.2em;
+    }
+    .infor-slide p{
+        font-size: .8em;
+    }
+
+    .swiper{
+        max-width: 100%;
+    }
+    .content-slide{
+        grid-template-columns: 1fr;
+        margin-bottom: 4em;
+    }
+  }
+  

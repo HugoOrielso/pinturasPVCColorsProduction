@@ -1,0 +1,180 @@
+
+{
+    "industrial":{
+        "categoria": "industrial",
+        "descripcion": "Linea industrial para la casa",
+        "imagen": "/images/secciones/industrial/industrialBanner.jpg",
+        "productos": [
+            {
+                "nombreProducto":"Cromato de zinc",
+                "descripcionProducto": "Imprimante anticorrosivo alquídico modificado, con muy buena resistencia a la corrosión ya que contiene cromato de zinc como inhibidor de corrosión. Producto de excelente secamiento, muy buena adherencia y flexibilidad",
+                "imagenProducto": "/images/secciones/industrial/productos/cromatoDeZinc.webp",
+                "colores": ["#4D5F23", "yellow"],
+                "recomendaciones": "Se utiliza para proteger, aplicando como primera capa para el recubrimiento de superficies metálicas expuestas a la intemperie y a condiciones atmosféricas moderadas. Se emplea en la protección de ventanas, puertas, barandas y cualquier superficie metálica que no esté sometida a contaminación industrial alta. No es recomendable aplicar en ambientes muy agresivos.",
+                "url": "cromatoDeZinc",
+                "presentacion": ["Galón", "Cuarto de galón"],
+                "ficha": "https://pdf.ac/3kNjB9"
+            },
+            {
+                "nombreProducto":"Esmalfast",
+                "descripcionProducto": "Producto elaborado con resinas alquídicas modificadas de excelente calidad y pigmentos de color seleccionados. Es de secamiento extra rápido, excelente brillo y durabilidad.",
+                "imagenProducto": "/images/secciones/industrial/productos/esmalfast.webp",
+                "colores": ["white", "red", "yellow","black", "#107860", "#0874BA"],
+                "recomendaciones": "Se utiliza para la protección de objetos metálicos, ferrosos y no ferrosos como puertas, ventanas, rejas, maquinaria industrial, estructuras y manufacturas metálicas en general, en ambientes interiores y exteriores de agresividad intermedia. NO ES COMPATIBLE CON ESMALTES ALQUÍDICOS O SINTÉTICOS.",
+                "url": "esmalfast",
+                "presentacion": ["Galón"],
+                "ficha": "https://pdf.ac/3D1Two"
+            },
+            {
+                "nombreProducto":"Tráfico pesado",
+                "descripcionProducto": "Elaborada con vehículo acrílico, pigmentos de alta resistencia y aditivos cuidadosamente seleccionados, es de rápido secamiento al aire, muy buena adherencia, resistencia a la abrasión, a la humedad y a la intemperie. No contiene material reflectivo.",
+                "imagenProducto": "/images/secciones/industrial/productos/traficoPesado.webp",
+                "colores": ["white", "red", "yellow","black", "blue"],
+                "recomendaciones": "Está diseñada para trazar líneas de tráfico sobre pavimento asfáltico, concreto o ladrillo en calles, canchas deportivas, pisos en almacenes, bodegas, aparcaderos, entre otros.",
+                "url": "traficoPesado",
+                "presentacion": ["Galón", "Cuñete de 5 galones"],
+                "ficha": "https://pdf.ac/2spSuU"
+            }
+        ]
+    },
+    "maderas":{
+        "categoria": "maderas",
+        "descripcion": "Linea maderas para la casa",
+        "imagen": "/images/secciones/madera/madera.webp",
+        "productos": [
+            {
+                "nombreProducto":"Colbón C-30 madera seca",
+                "url":"colbonMaderaSeca",
+                "descripcionProducto": "Adhesivo acuoso basado en resina sintética de PVA, para uniones fuertes, desarrollado para la industria de la carpintería.",
+                "imagenProducto": "/images/secciones/maderas/productos/colbonMaderaSeca.webp",
+                "colores": ["white"],
+                "recomendaciones": "Recomendados para el ensamble de madera, pegue de listonees y espigos entre otros.",
+                "presentacion":["Tambor de 200kg", "Cuñete de 20kg", "Galón de 4kg", "Cuarto de 1kg"],
+                "ficha": "https://pdf.ac/3ypWCc"
+            },
+            {
+                "nombreProducto":"Colbón madera húmeda",
+                "url":"colbonMaderaHumeda",
+                "descripcionProducto": "COLBON C-40 PVC COLORS es un pegante ideal para trabajar en maderas humedas, es un adhesivo rosado base agua para maderas con un contenido de humedad de hasta el 18%",
+                "imagenProducto": "/images/secciones/maderas/productos/colbonMaderaHumeda.webp",
+                "colores": ["pink"],
+                "recomendaciones": "Ensamble de muebles de alta exigencia, para trabajos de maderas con contenido de humedad del 18% aprox.",
+                "presentacion":["Galón", "Cuarto de galón"]
+            },
+            {
+                "nombreProducto":"Sellador catalizado",
+                "url":"selladorCatalizado",
+                "descripcionProducto": "El sellador LM-051 (Sellador Catalizado Industrial Pvc Colors), es un producto de dos componentes: SELLADOR CATALIZADO PVC  COLOR´S (Componente A) y CATALIZADOR P V C,(Componente B), que deben ser mezclados previamente a la aplicación; los cuales garantizan un sellamiento rápido y un excelente acondicionamiento de la madera.",
+                "imagenProducto": "/images/secciones/maderas/productos/lacaCatalizada.webp",
+                "recomendaciones": "Solo para uso interior en cualquier clase de muebles, puertas y maderas en general, como preparador de superficie antes de aplicar el color final.",
+                "presentacion":["Galón", "Cuarto de galón", "Cuñete"],
+                "ficha": "https://pdf.ac/39EKcl"
+            },
+            {
+                "nombreProducto":"Laca catalizada brillante",
+                "url":"lacaCatalizada",
+                "descripcionProducto": "La laca catalizada brillante es un producto elaborado con materias primas de óptima calidad, que da a la superficie tratada un acabado con buenas propiedades finales de brillo, dureza y garantizan un sellamiento rápido y un excelente acondicionamiento de la madera. Es un producto de fácil aplicación, tiene buena adherencia y excelente resistencia a la humedad y a diversos agentes de manchado.",
+                "imagenProducto": "/images/secciones/maderas/productos/lacaBrilante.webp",
+                "recomendaciones": "Producto de acabado solo para uso interior en cualquier clase de muebles, pueratas, y maderas en general.",
+                "colores": ["#BA7C58", "white", "#98080E", "rgb(159,67,38)"],
+                "presentacion":["Galón", "Cuarto de galón", "Cuñete"],
+                "ficha": "https://pdf.ac/39EKcl"
+            },
+            {
+                "nombreProducto":"Laca catalizada mate y semimate",
+                "url":"lacaCatalizadaMate",
+                "descripcionProducto": "La laca catalizada mate y/o semimate es un producto elaborado con materias primas de óptima calidad, que da a la superficie tratada un acabado con buenas propiedades finales de brillo, dureza y garantizan un sellamiento rápido y un excelente acondicionamiento de la madera. Es un producto de fácil aplicación, tiene buena adherencia y excelente resistencia a la humedad y a diversos agentes de manchado.",
+                "imagenProducto": "/images/secciones/maderas/productos/lacaBrilante.webp",
+                "recomendaciones": "Producto de acabado solo para uso interior en cualquier clase de muebles puertas y maderas en general.",
+                "colores": ["#131311", "#2E2E2E", "#505050"],
+                "presentacion":["Galón", "Cuarto de galón", "Cuñete de 5 galones"],
+                "ficha": "https://pdf.ac/39EKcl"
+
+            }
+        ]
+    },
+    "arquitectonica":{
+        "categoria": "arquitectonica",
+        "descripcion": "Linea arquitectonica para la casa",
+        "imagen": "/images/secciones/arquitectonica/arquitectonicaBanner.jpg",
+        "productos": [
+            {
+                "nombreProducto":"Esmalte sintético esmalcolor",
+                "descripcionProducto": "Producto de secamiento al aire elaborado con resinas alquídicas y pigmentos de color seleccionados, de acabado brillante y excelente calidad, flexibilidad, retención de color y durabilidad.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/emalcolor.webp",
+                "colores": ["green", "blue", "red", "black", "#F28500", "#600705" , "#07194D", "gray", "yellow", "rgb(255, 247, 133)", "rgb(245, 215, 96)", "royalblue", "rgb(137, 87, 87)", "#FBFED6", "#86D057", "#B3D9B5", "#1B5422", "#645452", "#1E0002", "#81808C"],
+                "recomendaciones": "Recomendado para uso Interior. Su mayor utilidad se encuentra en la decoración de muebles, puertas, paredes, divisiones arquitectónicas y superficies metálicas en general.",
+                "presentacion":["Galón", "Cuarto de galón"],
+                "url":"esmalteSinteticoEsmalcolor",
+                "ficha": "https://pdf.ac/1eBaAv"
+            },
+            {
+                "nombreProducto":"Pasta profesional",
+                "descripcionProducto": "Pasta pvc color’s, listo para aplicar y de buena manejabilidad, se puede usar sobre muros, placas, drywall, sirve para interiores y exteriores. Una vez aplicado tiene una excelente durabilidad y un buen acabado.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/pasta.webp",
+                "colores": ["white"],
+                "recomendaciones": "Como revestimiento para acabados sobre pañetes, frisos, repellos o revoques, sobre superficies lisas de concreto y láminas de fibrocemento y panel yeso. Especial para hacer resanes en pequeños espesores sobre",
+                "presentacion":["Galón", "Cuarto de galón"],
+                "url":"pastaProfesional",
+                "ficha": "https://pdf.ac/1B7ZLz"
+            },
+            {
+                "nombreProducto":"Base anticorrosivo",
+                "descripcionProducto": "Producto elaborado con resinas alquídicas de excelente calidad y pigmentos anticorrosivos seleccionados. Son de muy buen lijado y excelentes propiedades físicas. Formulados especialmente para la protección de superficies metálicas en ambientes interiores y exteriores, en diferentes climas y expuestos a la intemperie, en atmósferas normales libres de contaminación industrial.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/anticorrosivo.webp",
+                "colores": ["green", "blue", "#691E18", "black", "orange", "#C26E37", "red", "white"],
+                "recomendaciones": "Se emplea principalmente en estructuras de hierro y acero, marcos y puertas de hierro, tanques, tuberías y superficies metálicas en general. No se recomienda para inmersión, ni ambientes marinos y tropicales. Tampoco debe usarse directamente sin aplicar acabado. No usar sobre superficies de metal galvanizado. ",
+                "presentacion":["Cuñete 5 galones",  "Galón", "Cuarto de galón"],
+                "url": "baseAnticorrosivoAlquidico",
+                "ficha": "https://pdf.ac/GNWsK"
+            },
+            {
+                "nombreProducto":"Vinilo tipo 1",
+                "descripcionProducto": "Pintura vinil-acrílica diluible con agua de acabado mate, altocubrimiento, resistencia a la intemperie y excelente lavabilidad con una amplia gama de colores: blancos, colores pasteles y concentrados.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/viniloTipoUno.webp",
+                "coloresDos": [{"name": "Tonos pasteles","colores":["white", "#4E5754", "#FEFFE0", "#FB813B", "#627FDC", "#67CE04"]}, {"name": "concentrados", "colores": ["#FFFF00", "#F41000", "#C41E78", "#1F1C80", "#13308A", "#3C5A40", "#143E4A", "#DB841B", "#900D09", "black", "#FA581A"]}, {"name": "Obras", "colores": ["#F6F6C6", "#FEFFE0", "white"]}],
+                "recomendaciones": "Recomendada para superficies interiores y exteriores donde se requiere un acabado de alta durabilidad. Igualmente puede ser utilizada en superficies de madera, cemento y asbesto-cemento.",
+                "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón", "Cuarto de galón"],
+                "url": "vinilo1",
+                "ficha": "https://pdf.ac/1s7fW9"
+            },
+            {
+                "nombreProducto":"Vinilo tipo 2",
+                "descripcionProducto": "Pintura vinil-acrílica diluidle con agua de acabado mate, muy buen cubrimiento y lavabilidad. Amplia gama de colores: blancos, pasteles y concentrados.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/viniloTipoDos.webp",
+                "coloresDos": [{"name": "Tonos pasteles", "colores": ["white", "#FBF9AF", "#F4F7C1", "#FDF8B9", "#EED9AD", "#FBF7BD", "#FAF4E9", "#F7F5CE", "#C6DEF3", "#CAE7CB","#D5E6AF", "#F4DAF2", "#5E7499", "#5D7EC7", "#638569", "#83AD5C", "#267676", "#DBD77E", "#E96D56"]}, {"name": "Concentrados", "colores": ["#EBC557", "#CD7860", "#F6935B", "#D49946", "#A1473C", "black", "#F5DF84", "#FAE451", "#C81614", "#1D4775", "#FA7348", "#326F71", "#F5F8C8", "#F7F5CE"]}],
+                "recomendaciones": "Recomendada para uso interior donde se requiere un acabado de muy buena durabilidad, en decoración de muros y madera, cemento y asbesto-cemento.",
+                "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón", "Cuarto de galón"],
+                "url": "vinilo2",
+                "ficha": "https://pdf.ac/37KBbB"
+            },
+            {
+                "nombreProducto":"Vinilo tipo 3",
+                "descripcionProducto": "Pintura vinílica diluible con agua de acabado mate y muy buen cubrimiento.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/viniloTipoTres.webp",
+                "colores": ["white"],
+                "recomendaciones": "Recomendada para uso de techos, viviendas, oficinas, edificios comerciales, escuelas, construcción general, exterior superficies horizontales.",
+                "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón"],
+                "ficha": "https://pdf.ac/2IY5WV",
+                "url": "vinilo3"    
+            },
+            {
+                "nombreProducto":"Waterproofing",
+                "descripcionProducto": "es un impermeabilizante acrílico base agua,fácil de aplicar y de secado rápido. Actúa como barrera impermeable, permitiendo proteger de la humedad y goteras, en superficies debidamente preparadas. Puede ser utilizado en cualquier tipo de climas.",
+                "imagenProducto": "/images/secciones/arquitectonica/productos/waterproofing.webp",
+                "colores": ["white"],
+                "recomendaciones": "Recomendada para uso interior donde se requiere un acabado de muy buen durabilidad en decoración de muros, madera, cemento y asbesto-cemento.",
+                "presentacion":["Cuñete 5 galones", "Balde 2.5 galones", "Galón"],
+                "ficha": "https://pdf.ac/YPmBg",
+                "url": "waterproofing"
+            }
+        ]
+    },
+    "otros": {
+        "categoria": "otros",
+        "descripcion": "Otros productos",
+        "imagen": "/images/secciones/otros/bannerOtrasLineas.webp",
+        "productos": [  
+        ]
+    }
+}
