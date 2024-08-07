@@ -110,6 +110,7 @@
 .img-distribuidores img{
     width: 100%;
     min-height: 300px;
+    aspect-ratio:  auto;
 }
 
 @media screen and (max-width: 600px) {

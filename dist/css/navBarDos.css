@@ -11,6 +11,14 @@
         left: 0;
         z-index: 999;
 }
+
+.container-menu{
+    display: flex;
+    max-width: 1450px;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .navbar{
     display: flex;
 }
@@ -133,6 +141,13 @@
         flex-direction: column;
         width: 100%;
         justify-content: start;
+    }
+    .container-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
     }
     .navbar{
         height: 0;
